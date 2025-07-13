@@ -1,132 +1,231 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, Heart, ShoppingBag, Search, User, Menu } from "lucide-react";
+import {
+  Star,
+  Heart,
+  ShoppingBag,
+  Search,
+  User,
+  Menu,
+  Eye,
+} from "lucide-react";
 import { useState } from "react";
 
 const featuredProducts = [
   {
     id: 1,
     name: "Air Max Revolution",
-    brand: "SportFlow",
+    brand: "Nike",
     price: 179,
     originalPrice: 199,
-    image: "/placeholder.svg",
+    image:
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&crop=center",
+    hoverImage:
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
     reviews: 124,
     isNew: true,
     category: "Running",
+    colors: ["Red", "Black", "White"],
   },
   {
     id: 2,
     name: "Urban Walker Pro",
-    brand: "CityStep",
+    brand: "Adidas",
     price: 139,
     originalPrice: null,
-    image: "/placeholder.svg",
+    image:
+      "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=400&h=400&fit=crop&crop=center",
+    hoverImage:
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=400&fit=crop&crop=center",
     rating: 4.6,
     reviews: 89,
     isNew: false,
     category: "Casual",
+    colors: ["Blue", "Gray", "White"],
   },
   {
     id: 3,
     name: "Elite Performance",
-    brand: "PowerFit",
+    brand: "Puma",
     price: 199,
     originalPrice: 249,
-    image: "/placeholder.svg",
+    image:
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+    hoverImage:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
     rating: 4.9,
     reviews: 156,
     isNew: true,
     category: "Training",
+    colors: ["Black", "Orange", "White"],
   },
   {
     id: 4,
     name: "Classic Canvas",
-    brand: "RetroStyle",
+    brand: "Converse",
     price: 89,
     originalPrice: null,
-    image: "/placeholder.svg",
+    image:
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+    hoverImage:
+      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     rating: 4.4,
     reviews: 67,
     isNew: false,
     category: "Lifestyle",
+    colors: ["Black", "White", "Red"],
   },
 ];
 
 const categories = [
-  { name: "Running", icon: "🏃", description: "Performance running shoes" },
-  { name: "Casual", icon: "👟", description: "Everyday comfort" },
-  { name: "Training", icon: "💪", description: "Gym & fitness" },
-  { name: "Lifestyle", icon: "✨", description: "Fashion forward" },
+  {
+    name: "Running",
+    icon: "🏃",
+    description: "Performance running shoes",
+    image:
+      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=300&h=200&fit=crop&crop=center",
+  },
+  {
+    name: "Casual",
+    icon: "👟",
+    description: "Everyday comfort",
+    image:
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=300&h=200&fit=crop&crop=center",
+  },
+  {
+    name: "Training",
+    icon: "💪",
+    description: "Gym & fitness",
+    image:
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=300&h=200&fit=crop&crop=center",
+  },
+  {
+    name: "Lifestyle",
+    icon: "✨",
+    description: "Fashion forward",
+    image:
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=200&fit=crop&crop=center",
+  },
+];
+
+const heroShoes = [
+  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
+  "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=600&h=600&fit=crop&crop=center",
+  "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&h=600&fit=crop&crop=center",
 ];
 
 export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [hoveredProduct, setHoveredProduct] = useState<number | null>(null);
+  const [hoveredCategory, setHoveredCategory] = useState<number | null>(null);
+  const [currentHeroImage, setCurrentHeroImage] = useState(0);
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  const [showCursorShoe, setShowCursorShoe] = useState(false);
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    setCursorPosition({ x: e.clientX, y: e.clientY });
+  };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" onMouseMove={handleMouseMove}>
+      {/* Floating Cursor Shoe */}
+      {showCursorShoe && (
+        <div
+          className="fixed pointer-events-none z-[100] transition-all duration-300 ease-out"
+          style={{
+            left: cursorPosition.x + 10,
+            top: cursorPosition.y - 10,
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+          <div className="w-20 h-20 bg-primary/10 backdrop-blur-sm rounded-full p-2 border border-primary/20">
+            <img
+              src={featuredProducts[0].image}
+              alt="Cursor shoe"
+              className="w-full h-full object-contain"
+            />
+          </div>
+        </div>
+      )}
+
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent">
+              <div
+                className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent cursor-pointer hover:scale-105 transition-transform duration-300"
+                onMouseEnter={() => setShowCursorShoe(true)}
+                onMouseLeave={() => setShowCursorShoe(false)}
+              >
                 StepUp
               </div>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a
-                href="#"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                Men
-              </a>
-              <a
-                href="#"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                Women
-              </a>
-              <a
-                href="#"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                Kids
-              </a>
-              <a
-                href="#"
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                Sale
-              </a>
+              {["Men", "Women", "Kids", "Sale"].map((item, index) => (
+                <div key={item} className="relative group">
+                  <a
+                    href="#"
+                    className="text-foreground hover:text-primary transition-all duration-300 transform hover:scale-105 font-medium"
+                    onMouseEnter={() => setHoveredCategory(index)}
+                    onMouseLeave={() => setHoveredCategory(null)}
+                  >
+                    {item}
+                  </a>
+                  {hoveredCategory === index && (
+                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-card border border-border rounded-lg shadow-xl p-4 opacity-0 animate-in fade-in-0 zoom-in-95 duration-200">
+                      <img
+                        src={categories[index % categories.length].image}
+                        alt={item}
+                        className="w-full h-24 object-cover rounded-md mb-2"
+                      />
+                      <p className="text-sm text-muted-foreground text-center">
+                        Discover {item.toLowerCase()}'s collection
+                      </p>
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
 
             {/* Search Bar */}
             <div className="hidden lg:flex items-center">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <div className="relative group">
+                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
                 <input
                   type="text"
                   placeholder="Search shoes..."
-                  className="pl-10 pr-4 py-2 w-64 bg-muted rounded-full border-0 focus:ring-2 focus:ring-primary focus:outline-none"
+                  className="pl-10 pr-4 py-2 w-64 bg-muted rounded-full border-0 focus:ring-2 focus:ring-primary focus:outline-none transition-all duration-300 focus:w-72"
                 />
               </div>
             </div>
 
             {/* Actions */}
             <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="icon" className="hidden sm:flex">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hidden sm:flex hover:scale-110 transition-transform duration-300"
+              >
                 <User className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hidden sm:flex">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hidden sm:flex hover:scale-110 transition-transform duration-300"
+              >
                 <Heart className="h-5 w-5" />
               </Button>
-              <Button variant="ghost" size="icon">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hover:scale-110 transition-transform duration-300"
+              >
                 <ShoppingBag className="h-5 w-5" />
               </Button>
               <Button
@@ -143,7 +242,7 @@ export default function Index() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden border-t bg-background">
+          <div className="md:hidden border-t bg-background animate-in slide-in-from-top-5 duration-200">
             <div className="px-4 py-4 space-y-4">
               <div className="relative mb-4">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -153,30 +252,15 @@ export default function Index() {
                   className="pl-10 pr-4 py-2 w-full bg-muted rounded-full border-0 focus:ring-2 focus:ring-primary focus:outline-none"
                 />
               </div>
-              <a
-                href="#"
-                className="block text-foreground hover:text-primary transition-colors"
-              >
-                Men
-              </a>
-              <a
-                href="#"
-                className="block text-foreground hover:text-primary transition-colors"
-              >
-                Women
-              </a>
-              <a
-                href="#"
-                className="block text-foreground hover:text-primary transition-colors"
-              >
-                Kids
-              </a>
-              <a
-                href="#"
-                className="block text-foreground hover:text-primary transition-colors"
-              >
-                Sale
-              </a>
+              {["Men", "Women", "Kids", "Sale"].map((item) => (
+                <a
+                  key={item}
+                  href="#"
+                  className="block text-foreground hover:text-primary transition-colors py-2"
+                >
+                  {item}
+                </a>
+              ))}
             </div>
           </div>
         )}
@@ -188,7 +272,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <Badge variant="secondary" className="w-fit">
+                <Badge variant="secondary" className="w-fit animate-pulse">
                   New Collection 2024
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
@@ -204,21 +288,28 @@ export default function Index() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8">
+                <Button
+                  size="lg"
+                  className="text-lg px-8 hover:scale-105 transition-transform duration-300"
+                >
                   Shop Collection
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg px-8 hover:scale-105 transition-transform duration-300"
+                >
                   Explore Brands
                 </Button>
               </div>
               <div className="flex items-center gap-8 text-sm text-muted-foreground">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 hover:scale-105 transition-transform duration-300">
                   <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
                     <span className="text-primary font-semibold">✓</span>
                   </div>
                   Free shipping over ₹6000
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 hover:scale-105 transition-transform duration-300">
                   <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
                     <span className="text-primary font-semibold">↩</span>
                   </div>
@@ -226,15 +317,29 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative group">
               <div className="aspect-square bg-gradient-to-br from-primary/5 to-brand-100/50 rounded-3xl p-8 relative overflow-hidden">
                 <img
-                  src="/placeholder.svg"
+                  src={heroShoes[currentHeroImage]}
                   alt="Featured Shoe"
-                  className="w-full h-full object-contain transform rotate-12 scale-110"
+                  className="w-full h-full object-contain transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 ease-out"
                 />
-                <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>
-                <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-brand-300/30 rounded-full blur-2xl"></div>
+                <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl animate-pulse"></div>
+                <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-brand-300/30 rounded-full blur-2xl animate-pulse delay-1000"></div>
+              </div>
+              {/* Hero Image Selector */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+                {heroShoes.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentHeroImage(index)}
+                    className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                      index === currentHeroImage
+                        ? "bg-primary scale-125"
+                        : "bg-primary/30 hover:bg-primary/60"
+                    }`}
+                  />
+                ))}
               </div>
             </div>
           </div>
@@ -254,11 +359,23 @@ export default function Index() {
             {categories.map((category, index) => (
               <Card
                 key={index}
-                className="group cursor-pointer hover:shadow-lg transition-all duration-300 border-0 bg-gradient-to-br from-card to-muted/50"
+                className="group cursor-pointer hover:shadow-xl transition-all duration-500 border-0 bg-gradient-to-br from-card to-muted/50 overflow-hidden transform hover:scale-105 hover:-translate-y-2"
+                onMouseEnter={() => setHoveredCategory(index)}
+                onMouseLeave={() => setHoveredCategory(null)}
               >
-                <CardContent className="p-8 text-center space-y-4">
-                  <div className="text-4xl mb-2">{category.icon}</div>
-                  <h3 className="font-semibold text-lg group-hover:text-primary transition-colors">
+                <div className="relative h-32 overflow-hidden">
+                  <img
+                    src={category.image}
+                    alt={category.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent group-hover:from-black/30 transition-all duration-300"></div>
+                  <div className="absolute top-4 left-4 text-3xl group-hover:scale-125 transition-transform duration-300">
+                    {category.icon}
+                  </div>
+                </div>
+                <CardContent className="p-6 text-center space-y-3">
+                  <h3 className="font-semibold text-lg group-hover:text-primary transition-colors duration-300">
                     {category.name}
                   </h3>
                   <p className="text-sm text-muted-foreground">
@@ -283,7 +400,10 @@ export default function Index() {
                 Handpicked favorites from our latest collection
               </p>
             </div>
-            <Button variant="outline" className="hidden sm:flex">
+            <Button
+              variant="outline"
+              className="hidden sm:flex hover:scale-105 transition-transform duration-300"
+            >
               View All Products
             </Button>
           </div>
@@ -292,41 +412,80 @@ export default function Index() {
             {featuredProducts.map((product) => (
               <Card
                 key={product.id}
-                className="group cursor-pointer hover:shadow-xl transition-all duration-300 overflow-hidden border-0"
+                className="group cursor-pointer hover:shadow-2xl transition-all duration-500 overflow-hidden border-0 transform hover:scale-105 hover:-translate-y-3"
+                onMouseEnter={() => setHoveredProduct(product.id)}
+                onMouseLeave={() => setHoveredProduct(null)}
               >
                 <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-muted/50 to-card">
                   <img
-                    src={product.image}
+                    src={
+                      hoveredProduct === product.id
+                        ? product.hoverImage
+                        : product.image
+                    }
                     alt={product.name}
-                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover p-4 group-hover:scale-110 transition-all duration-500 ease-out"
                   />
                   {product.isNew && (
-                    <Badge className="absolute top-3 left-3 bg-primary">
+                    <Badge className="absolute top-3 left-3 bg-primary animate-bounce">
                       New
                     </Badge>
                   )}
-                  <Button
-                    variant="secondary"
-                    size="icon"
-                    className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity"
-                  >
-                    <Heart className="h-4 w-4" />
-                  </Button>
+                  <div className="absolute top-3 right-3 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
+                    <Button
+                      variant="secondary"
+                      size="icon"
+                      className="w-8 h-8 hover:scale-110 transition-transform duration-300"
+                    >
+                      <Heart className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="secondary"
+                      size="icon"
+                      className="w-8 h-8 hover:scale-110 transition-transform duration-300"
+                    >
+                      <Eye className="h-4 w-4" />
+                    </Button>
+                  </div>
                   {product.originalPrice && (
                     <Badge
                       variant="destructive"
-                      className="absolute bottom-3 left-3"
+                      className="absolute bottom-3 left-3 animate-pulse"
                     >
                       Sale
                     </Badge>
                   )}
+                  {/* Color Options */}
+                  <div className="absolute bottom-3 right-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                    {product.colors.map((color, index) => (
+                      <div
+                        key={index}
+                        className={`w-4 h-4 rounded-full border-2 border-white shadow-md cursor-pointer hover:scale-125 transition-transform duration-300 ${
+                          color.toLowerCase() === "red"
+                            ? "bg-red-500"
+                            : color.toLowerCase() === "black"
+                              ? "bg-black"
+                              : color.toLowerCase() === "white"
+                                ? "bg-white"
+                                : color.toLowerCase() === "blue"
+                                  ? "bg-blue-500"
+                                  : color.toLowerCase() === "gray"
+                                    ? "bg-gray-500"
+                                    : color.toLowerCase() === "orange"
+                                      ? "bg-orange-500"
+                                      : "bg-gray-300"
+                        }`}
+                        title={color}
+                      />
+                    ))}
+                  </div>
                 </div>
                 <CardContent className="p-4 space-y-3">
                   <div className="space-y-1">
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-sm text-muted-foreground font-medium">
                       {product.brand}
                     </p>
-                    <h3 className="font-semibold group-hover:text-primary transition-colors">
+                    <h3 className="font-semibold group-hover:text-primary transition-colors duration-300">
                       {product.name}
                     </h3>
                   </div>
@@ -356,7 +515,7 @@ export default function Index() {
                       {product.category}
                     </Badge>
                   </div>
-                  <Button className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                  <Button className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 transform group-hover:scale-105">
                     Add to Cart
                   </Button>
                 </CardContent>
@@ -365,7 +524,12 @@ export default function Index() {
           </div>
 
           <div className="text-center mt-8 sm:hidden">
-            <Button variant="outline">View All Products</Button>
+            <Button
+              variant="outline"
+              className="hover:scale-105 transition-transform duration-300"
+            >
+              View All Products
+            </Button>
           </div>
         </div>
       </section>
@@ -373,8 +537,9 @@ export default function Index() {
       {/* Newsletter */}
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-gradient-to-r from-primary to-brand-600 text-primary-foreground border-0">
-            <CardContent className="p-8 lg:p-12 text-center space-y-6">
+          <Card className="bg-gradient-to-r from-primary to-brand-600 text-primary-foreground border-0 overflow-hidden relative group">
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&h=400&fit=crop&crop=center')] opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
+            <CardContent className="p-8 lg:p-12 text-center space-y-6 relative z-10">
               <h2 className="text-2xl lg:text-3xl font-bold">
                 Stay in the Loop
               </h2>
@@ -386,9 +551,12 @@ export default function Index() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="flex-1 px-4 py-3 rounded-lg border-0 text-foreground focus:ring-2 focus:ring-primary-foreground focus:outline-none"
+                  className="flex-1 px-4 py-3 rounded-lg border-0 text-foreground focus:ring-2 focus:ring-primary-foreground focus:outline-none transition-all duration-300 focus:scale-105"
                 />
-                <Button variant="secondary" className="px-8">
+                <Button
+                  variant="secondary"
+                  className="px-8 hover:scale-105 transition-transform duration-300"
+                >
                   Subscribe
                 </Button>
               </div>
@@ -402,7 +570,7 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="col-span-2 lg:col-span-1">
-              <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent mb-4">
+              <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent mb-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
                 StepUp
               </div>
               <p className="text-sm text-muted-foreground mb-4">
@@ -410,13 +578,25 @@ export default function Index() {
                 game with our collection.
               </p>
               <div className="flex gap-4">
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8 hover:scale-125 transition-transform duration-300"
+                >
                   f
                 </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8 hover:scale-125 transition-transform duration-300"
+                >
                   𝕏
                 </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8 hover:scale-125 transition-transform duration-300"
+                >
                   in
                 </Button>
               </div>
@@ -426,25 +606,25 @@ export default function Index() {
               <div className="space-y-2 text-sm text-muted-foreground">
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Men's Shoes
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Women's Shoes
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Kids' Shoes
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Sale
                 </a>
@@ -455,25 +635,25 @@ export default function Index() {
               <div className="space-y-2 text-sm text-muted-foreground">
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Size Guide
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Returns
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Shipping
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Contact
                 </a>
@@ -484,25 +664,25 @@ export default function Index() {
               <div className="space-y-2 text-sm text-muted-foreground">
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   About Us
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Careers
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Privacy
                 </a>
                 <a
                   href="#"
-                  className="block hover:text-foreground transition-colors"
+                  className="block hover:text-foreground transition-all duration-300 hover:translate-x-1"
                 >
                   Terms
                 </a>
