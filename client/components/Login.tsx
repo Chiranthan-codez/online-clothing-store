@@ -46,7 +46,9 @@ export default function Login({ isOpen, onClose }: LoginProps) {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent">
-                  StepUp
+                  <p>
+                    <span style={{ color: "rgb(208, 2, 27)" }}>StepUp</span>
+                  </p>
                 </div>
                 <Badge variant="secondary" className="text-xs">
                   {isLogin ? "Login" : "Sign Up"}
@@ -189,7 +191,11 @@ export default function Login({ isOpen, onClose }: LoginProps) {
                     variant="ghost"
                     className="text-sm text-primary hover:underline p-0"
                   >
-                    Forgot password?
+                    <p>
+                      <span style={{ color: "rgb(168, 0, 23)" }}>
+                        Forgot password?
+                      </span>
+                    </p>
                   </Button>
                 </div>
               )}
