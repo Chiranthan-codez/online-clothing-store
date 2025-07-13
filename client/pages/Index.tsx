@@ -216,7 +216,7 @@ export default function Index() {
                   <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
                     <span className="text-primary font-semibold">✓</span>
                   </div>
-                  Free shipping over $75
+                  Free shipping over ₹6000
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
@@ -344,11 +344,11 @@ export default function Index() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                       <span className="text-lg font-bold">
-                        ${product.price}
+                        ₹{product.price * 80}
                       </span>
                       {product.originalPrice && (
                         <span className="text-sm text-muted-foreground line-through">
-                          ${product.originalPrice}
+                          ₹{product.originalPrice * 80}
                         </span>
                       )}
                     </div>
