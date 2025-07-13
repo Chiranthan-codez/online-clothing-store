@@ -37,14 +37,16 @@ const featuredProducts = [
     price: 139,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=400&fit=crop&crop=center",
     hoverImage:
-      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&crop=center",
     previewImages: [
+      "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=600&h=600&fit=crop&crop=center",
       "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=600&h=600&fit=crop&crop=center",
       "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=600&h=600&fit=crop&crop=center",
     ],
     rating: 4.6,
     reviews: 89,
@@ -92,7 +94,13 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes",
     image:
-      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=300&h=200&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center",
+    gallery: [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=600&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&h=400&fit=crop&crop=center",
+    ],
   },
   {
     name: "Casual",
