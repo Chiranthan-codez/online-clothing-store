@@ -215,6 +215,7 @@ export default function Index() {
                 variant="ghost"
                 size="icon"
                 className="hidden sm:flex hover:scale-110 transition-transform duration-300"
+                onClick={() => setIsLoginOpen(true)}
               >
                 <User className="h-5 w-5" />
               </Button>
