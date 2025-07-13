@@ -40,6 +40,12 @@ const featuredProducts = [
       "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=400&h=400&fit=crop&crop=center",
     hoverImage:
       "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=400&fit=crop&crop=center",
+    previewImages: [
+      "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&crop=center",
+    ],
     rating: 4.6,
     reviews: 89,
     isNew: false,
