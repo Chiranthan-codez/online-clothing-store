@@ -11,6 +11,7 @@ import {
   Eye,
 } from "lucide-react";
 import { useState } from "react";
+import Login from "@/components/Login";
 
 const featuredProducts = [
   {
