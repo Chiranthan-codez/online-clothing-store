@@ -707,6 +707,9 @@ export default function Index() {
           </div>
         </div>
       </footer>
+
+      {/* Login Modal */}
+      <Login isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
     </div>
   );
 }
