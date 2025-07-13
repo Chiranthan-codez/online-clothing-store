@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        brand: {
+          50: "hsl(260, 50%, 98%)",
+          100: "hsl(260, 50%, 95%)",
+          200: "hsl(260, 50%, 90%)",
+          300: "hsl(260, 50%, 80%)",
+          400: "hsl(260, 50%, 65%)",
+          500: "hsl(260, 85%, 45%)",
+          600: "hsl(260, 85%, 40%)",
+          700: "hsl(260, 85%, 35%)",
+          800: "hsl(260, 85%, 30%)",
+          900: "hsl(260, 85%, 25%)",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
