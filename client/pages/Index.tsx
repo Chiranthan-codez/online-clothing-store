@@ -134,7 +134,7 @@ const categories = [
 
 const heroShoes = [
   "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
-  "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=600&h=600&fit=crop&crop=center",
+  "https://cdn.builder.io/api/v1/image/assets%2F8b39261676d1488287ee26a617ce70a7%2F242d36c5328d484294f3191d3a0c4f47",
   "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&h=600&fit=crop&crop=center",
 ];
 
