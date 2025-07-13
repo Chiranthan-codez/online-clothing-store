@@ -161,7 +161,9 @@ export default function Index() {
                 onMouseEnter={() => setShowCursorShoe(true)}
                 onMouseLeave={() => setShowCursorShoe(false)}
               >
-                StepUp
+                <h3>
+                  <span style={{ color: "rgb(204, 50, 22)" }}>StepUp</span>
+                </h3>
               </div>
             </div>
 
@@ -278,7 +280,11 @@ export default function Index() {
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                   Step Into Your
                   <span className="block bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent">
-                    Best Performance
+                    <p>
+                      <span style={{ color: "rgb(208, 2, 27)" }}>
+                        Best Perfomance
+                      </span>
+                    </p>
                   </span>
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-lg">
@@ -291,8 +297,9 @@ export default function Index() {
                 <Button
                   size="lg"
                   className="text-lg px-8 hover:scale-105 transition-transform duration-300"
+                  style={{ backgroundColor: "rgba(63, 60, 68, 1)" }}
                 >
-                  Shop Collection
+                  <p>Shop collection</p>
                 </Button>
                 <Button
                   variant="outline"
@@ -515,7 +522,10 @@ export default function Index() {
                       {product.category}
                     </Badge>
                   </div>
-                  <Button className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 transform group-hover:scale-105">
+                  <Button
+                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 transform group-hover:scale-105"
+                    style={{ backgroundColor: "rgba(74, 74, 74, 1)" }}
+                  >
                     Add to Cart
                   </Button>
                 </CardContent>
