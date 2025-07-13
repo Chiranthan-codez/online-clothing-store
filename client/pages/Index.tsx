@@ -124,6 +124,7 @@ export default function Index() {
   const [currentHeroImage, setCurrentHeroImage] = useState(0);
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
   const [showCursorShoe, setShowCursorShoe] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
