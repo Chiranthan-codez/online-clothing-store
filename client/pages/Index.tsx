@@ -423,14 +423,14 @@ export default function Index() {
             <div className="hidden md:flex items-center space-x-8">
               {["Men", "Women", "Kids", "Sale"].map((item, index) => (
                 <div key={item} className="relative group">
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => handleNavigation(item.toLowerCase())}
                     className="text-foreground hover:text-primary transition-all duration-300 transform hover:scale-105 font-medium"
                     onMouseEnter={() => setHoveredCategory(index)}
                     onMouseLeave={() => setHoveredCategory(null)}
                   >
                     {item}
-                  </a>
+                  </button>
                   {hoveredCategory === index && (
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-card border border-border rounded-lg shadow-xl p-4 opacity-0 animate-in fade-in-0 zoom-in-95 duration-200">
                       <img
