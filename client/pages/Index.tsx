@@ -190,6 +190,9 @@ export default function Index() {
   // Search state
   const [searchQuery, setSearchQuery] = useState<string>("");
 
+  // Brand state
+  const [selectedBrand, setSelectedBrand] = useState<string>("");
+
   const handleMouseMove = (e: React.MouseEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
