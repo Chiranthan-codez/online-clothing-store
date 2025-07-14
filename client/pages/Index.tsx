@@ -182,6 +182,75 @@ export default function Index() {
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
 
+  // Helper functions
+  const showToast = (
+    message: string,
+    type: "success" | "error" | "info" = "success",
+  ) => {
+    setToast({ message, isVisible: true, type });
+  };
+
+  const addToWishlist = (product: any) => {
+    const isAlreadyInWishlist = wishlistItems.some(
+      (item) => item.id === product.id,
+    );
+    if (!isAlreadyInWishlist) {
+      setWishlistItems([...wishlistItems, product]);
+      showToast(`${product.name} added to wishlist!`);
+    } else {
+      showToast(`${product.name} is already in your wishlist!`, "info");
+    }
+  };
+
+  const removeFromWishlist = (productId: number) => {
+    const product = wishlistItems.find((item) => item.id === productId);
+    setWishlistItems(wishlistItems.filter((item) => item.id !== productId));
+    if (product) {
+      showToast(`${product.name} removed from wishlist!`);
+    }
+  };
+
+  const addToCart = (product: any) => {
+    const existingItem = cartItems.find((item) => item.id === product.id);
+    if (existingItem) {
+      setCartItems(
+        cartItems.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item,
+        ),
+      );
+    } else {
+      setCartItems([...cartItems, { ...product, quantity: 1 }]);
+    }
+    showToast(`${product.name} added to cart!`);
+  };
+
+  const removeFromCart = (productId: number) => {
+    const product = cartItems.find((item) => item.id === productId);
+    setCartItems(cartItems.filter((item) => item.id !== productId));
+    if (product) {
+      showToast(`${product.name} removed from cart!`);
+    }
+  };
+
+  const updateCartQuantity = (productId: number, quantity: number) => {
+    if (quantity === 0) {
+      removeFromCart(productId);
+    } else {
+      setCartItems(
+        cartItems.map((item) =>
+          item.id === productId ? { ...item, quantity } : item,
+        ),
+      );
+    }
+  };
+
+  const handleNavigation = (page: string) => {
+    setCurrentPage(page);
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className="min-h-screen bg-background" onMouseMove={handleMouseMove}>
       {/* Floating Cursor Shoe */}
