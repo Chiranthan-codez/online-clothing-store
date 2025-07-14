@@ -12,6 +12,13 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import Login from "@/components/Login";
+import Wishlist from "@/components/Wishlist";
+import Cart from "@/components/Cart";
+import Toast from "@/components/Toast";
+import Men from "./Men";
+import Women from "./Women";
+import Kids from "./Kids";
+import Sale from "./Sale";
 
 const featuredProducts = [
   {
