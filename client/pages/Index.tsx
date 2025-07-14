@@ -1148,7 +1148,9 @@ export default function Index() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="col-span-2 lg:col-span-1">
               <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent mb-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
-                StepUp
+                <p>
+                  <span style={{ color: "rgb(208, 2, 27)" }}>StepUp</span>
+                </p>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
                 Premium athletic footwear for the modern athlete. Step up your
