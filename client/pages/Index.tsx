@@ -708,6 +708,10 @@ export default function Index() {
                       variant="secondary"
                       size="icon"
                       className="w-8 h-8 hover:scale-110 transition-transform duration-300"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        addToWishlist(product);
+                      }}
                     >
                       <Heart className="h-4 w-4" />
                     </Button>
