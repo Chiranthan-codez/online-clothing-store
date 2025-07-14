@@ -1130,8 +1130,8 @@ export default function Index() {
                     </Badge>
                   </div>
                   <Button
-                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 transform group-hover:scale-105"
-                    style={{ backgroundColor: "rgba(74, 74, 74, 1)" }}
+                    className="w-full group-hover:bg-red-600 group-hover:text-white transition-all duration-300 transform group-hover:scale-105"
+                    style={{ backgroundColor: "rgba(220, 38, 38, 1)" }}
                     onClick={(e) => {
                       e.stopPropagation();
                       addToCart(product);
