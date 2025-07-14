@@ -385,6 +385,165 @@ export default function Index() {
     );
   }
 
+  if (currentPage === "categories") {
+    return (
+      <>
+        <Categories
+          onBack={() => setCurrentPage("home")}
+          onCategorySelect={(category) => setCurrentPage(category)}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "running") {
+    return (
+      <>
+        <Running
+          onBack={() => setCurrentPage("categories")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "casual") {
+    return (
+      <>
+        <Casual
+          onBack={() => setCurrentPage("categories")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "training") {
+    return (
+      <>
+        <Training
+          onBack={() => setCurrentPage("categories")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "lifestyle") {
+    return (
+      <>
+        <Lifestyle
+          onBack={() => setCurrentPage("categories")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background" onMouseMove={handleMouseMove}>
       {/* Floating Cursor Shoe */}
