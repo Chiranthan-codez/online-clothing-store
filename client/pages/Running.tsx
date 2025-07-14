@@ -232,8 +232,7 @@ export default function Running({
                     </Badge>
                   </div>
                   <Button
-                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 transform group-hover:scale-105"
-                    style={{ backgroundColor: "rgba(220, 38, 38, 1)" }}
+                    className="w-full bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/80 transition-all duration-300 transform group-hover:scale-105"
                     onClick={(e) => {
                       e.stopPropagation();
                       onAddToCart(product);
