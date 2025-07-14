@@ -520,13 +520,13 @@ export default function Index() {
                 />
               </div>
               {["Men", "Women", "Kids", "Sale"].map((item) => (
-                <a
+                <button
                   key={item}
-                  href="#"
-                  className="block text-foreground hover:text-primary transition-colors py-2"
+                  onClick={() => handleNavigation(item.toLowerCase())}
+                  className="block text-foreground hover:text-primary transition-colors py-2 text-left w-full"
                 >
                   {item}
-                </a>
+                </button>
               ))}
             </div>
           </div>
