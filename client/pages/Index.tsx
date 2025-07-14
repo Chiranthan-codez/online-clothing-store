@@ -1099,7 +1099,7 @@ export default function Index() {
                     <p className="text-sm text-muted-foreground font-medium">
                       {product.brand}
                     </p>
-                    <h3 className="font-semibold group-hover:text-primary transition-colors duration-300">
+                    <h3 className="font-semibold group-hover:text-red-600 transition-colors duration-300">
                       {product.name}
                     </h3>
                   </div>
