@@ -156,6 +156,28 @@ export default function Index() {
   const [previewProduct, setPreviewProduct] = useState<any>(null);
   const [currentPreviewImage, setCurrentPreviewImage] = useState(0);
 
+  // Navigation state
+  const [currentPage, setCurrentPage] = useState<string>("home");
+
+  // Wishlist state
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const [wishlistItems, setWishlistItems] = useState<any[]>([]);
+
+  // Cart state
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [cartItems, setCartItems] = useState<any[]>([]);
+
+  // Toast state
+  const [toast, setToast] = useState<{
+    message: string;
+    isVisible: boolean;
+    type: "success" | "error" | "info";
+  }>({
+    message: "",
+    isVisible: false,
+    type: "success",
+  });
+
   const handleMouseMove = (e: React.MouseEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
