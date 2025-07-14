@@ -272,6 +272,11 @@ export default function Index() {
     setIsMenuOpen(false);
   };
 
+  const handleBrandSelect = (brandName: string) => {
+    setSelectedBrand(brandName);
+    setCurrentPage("brandproducts");
+  };
+
   // Render different pages based on current page
   if (currentPage === "men") {
     return (
