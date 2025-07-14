@@ -892,7 +892,7 @@ export default function Index() {
                 <Button
                   size="lg"
                   className="text-lg px-8 hover:scale-105 transition-transform duration-300"
-                  style={{ backgroundColor: "rgba(63, 60, 68, 1)" }}
+                  style={{ backgroundColor: "rgba(220, 38, 38, 1)" }}
                   onClick={() => setCurrentPage("categories")}
                 >
                   <p>Shop collection</p>
