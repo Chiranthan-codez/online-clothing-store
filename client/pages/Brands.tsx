@@ -180,7 +180,8 @@ export default function Brands({ onBack, onBrandSelect }: BrandsProps) {
                   </div>
                   <Button
                     variant="outline"
-                    className="w-full group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all duration-300"
+                    className="w-full group-hover:bg-red-500 group-hover:text-white group-hover:border-red-500 transition-all duration-300"
+                    onClick={() => onBrandSelect(brand.name.toLowerCase())}
                   >
                     View {brand.name} Products
                   </Button>
