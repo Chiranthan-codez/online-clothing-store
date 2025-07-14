@@ -119,7 +119,7 @@ export default function Lifestyle({
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-50 to-pink-50 py-16">
+      <div className="bg-gradient-to-r from-red-50 to-pink-50 py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Button
             variant="ghost"
