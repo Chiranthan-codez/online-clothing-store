@@ -262,6 +262,12 @@ export default function Index() {
     setIsMenuOpen(false);
   };
 
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+    setCurrentPage("search");
+    setIsMenuOpen(false);
+  };
+
   // Render different pages based on current page
   if (currentPage === "men") {
     return (
