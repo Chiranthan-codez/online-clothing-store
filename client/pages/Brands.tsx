@@ -140,11 +140,11 @@ export default function Brands({ onBack, onBrandSelect }: BrandsProps) {
                 className="group cursor-pointer hover:shadow-xl transition-all duration-500 border-0 overflow-hidden transform hover:scale-105 hover:-translate-y-2"
               >
                 <CardContent className="p-6 text-center space-y-4">
-                  <div className="h-16 flex items-center justify-center mb-4">
+                  <div className="h-16 flex items-center justify-center mb-4 dark:bg-white/10 dark:rounded-lg dark:p-2">
                     <img
                       src={brand.logo}
                       alt={`${brand.name} logo`}
-                      className="max-h-12 max-w-full object-contain group-hover:scale-110 transition-transform duration-300"
+                      className="max-h-12 max-w-full object-contain group-hover:scale-110 transition-transform duration-300 dark:brightness-0 dark:invert"
                       onError={(e) => {
                         // Fallback to text logo if image fails
                         const target = e.target as HTMLImageElement;
