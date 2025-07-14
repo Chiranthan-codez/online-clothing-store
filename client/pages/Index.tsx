@@ -596,6 +596,39 @@ export default function Index() {
     );
   }
 
+  if (currentPage === "brandproducts") {
+    return (
+      <>
+        <BrandProducts
+          brandName={selectedBrand}
+          onBack={() => setCurrentPage("brands")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
   if (currentPage === "allproducts") {
     return (
       <>
