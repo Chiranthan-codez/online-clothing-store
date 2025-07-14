@@ -106,7 +106,7 @@ interface BrandsProps {
   onBrandSelect: (brandName: string) => void;
 }
 
-export default function Brands({ onBack }: BrandsProps) {
+export default function Brands({ onBack, onBrandSelect }: BrandsProps) {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
