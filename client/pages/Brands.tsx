@@ -103,6 +103,7 @@ const brands = [
 
 interface BrandsProps {
   onBack: () => void;
+  onBrandSelect: (brandName: string) => void;
 }
 
 export default function Brands({ onBack }: BrandsProps) {
