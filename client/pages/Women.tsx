@@ -119,7 +119,7 @@ export default function Women({
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <div className="bg-gradient-to-r from-pink-50 to-purple-50 py-16">
+      <div className="bg-gradient-to-r from-pink-50 to-red-50 py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Button
             variant="ghost"
