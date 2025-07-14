@@ -840,6 +840,7 @@ export default function Index() {
                   variant="outline"
                   size="lg"
                   className="text-lg px-8 hover:scale-105 transition-transform duration-300"
+                  onClick={() => setCurrentPage("brands")}
                 >
                   Explore Brands
                 </Button>
