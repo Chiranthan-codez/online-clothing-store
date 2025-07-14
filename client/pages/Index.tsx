@@ -186,6 +186,9 @@ export default function Index() {
     type: "success",
   });
 
+  // Search state
+  const [searchQuery, setSearchQuery] = useState<string>("");
+
   const handleMouseMove = (e: React.MouseEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
   };
