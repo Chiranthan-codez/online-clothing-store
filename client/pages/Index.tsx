@@ -9,8 +9,10 @@ import {
   User,
   Menu,
   Eye,
+  Sun,
+  Moon,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Login from "@/components/Login";
 import Wishlist from "@/components/Wishlist";
 import Cart from "@/components/Cart";
@@ -192,6 +194,37 @@ export default function Index() {
 
   // Brand state
   const [selectedBrand, setSelectedBrand] = useState<string>("");
+
+  // Theme state
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+
+  // Initialize theme from localStorage on component mount
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    const systemPrefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
+    const shouldUseDark =
+      savedTheme === "dark" || (!savedTheme && systemPrefersDark);
+
+    setIsDarkMode(shouldUseDark);
+    updateTheme(shouldUseDark);
+  }, []);
+
+  const updateTheme = (dark: boolean) => {
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  };
+
+  const toggleTheme = () => {
+    const newTheme = !isDarkMode;
+    setIsDarkMode(newTheme);
+    updateTheme(newTheme);
+    localStorage.setItem("theme", newTheme ? "dark" : "light");
+  };
 
   const handleMouseMove = (e: React.MouseEvent) => {
     setCursorPosition({ x: e.clientX, y: e.clientY });
@@ -783,6 +816,21 @@ export default function Index() {
 
             {/* Actions */}
             <div className="flex items-center space-x-4">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hover:scale-110 transition-transform duration-300"
+                onClick={toggleTheme}
+                title={
+                  isDarkMode ? "Switch to light mode" : "Switch to dark mode"
+                }
+              >
+                {isDarkMode ? (
+                  <Sun className="h-5 w-5" />
+                ) : (
+                  <Moon className="h-5 w-5" />
+                )}
+              </Button>
               <Button
                 variant="ghost"
                 size="icon"
