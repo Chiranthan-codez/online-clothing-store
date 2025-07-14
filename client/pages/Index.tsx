@@ -947,6 +947,7 @@ export default function Index() {
             <Button
               variant="outline"
               className="hidden sm:flex hover:scale-105 transition-transform duration-300"
+              onClick={() => setCurrentPage("allproducts")}
             >
               View All Products
             </Button>
