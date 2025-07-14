@@ -24,6 +24,9 @@ import Running from "./Running";
 import Casual from "./Casual";
 import Training from "./Training";
 import Lifestyle from "./Lifestyle";
+import Brands from "./Brands";
+import AllProducts from "./AllProducts";
+import SearchResults from "./SearchResults";
 
 const featuredProducts = [
   {
@@ -123,7 +126,7 @@ const categories = [
   },
   {
     name: "Casual",
-    icon: "��",
+    icon: "👟",
     description: "Everyday comfort",
     image:
       "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=300&h=200&fit=crop&crop=center",
