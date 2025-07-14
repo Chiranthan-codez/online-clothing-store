@@ -123,7 +123,7 @@ const categories = [
   },
   {
     name: "Casual",
-    icon: "👟",
+    icon: "��",
     description: "Everyday comfort",
     image:
       "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=300&h=200&fit=crop&crop=center",
@@ -1150,6 +1150,32 @@ export default function Index() {
 
       {/* Login Modal */}
       <Login isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
+
+      {/* Wishlist Modal */}
+      <Wishlist
+        isOpen={isWishlistOpen}
+        onClose={() => setIsWishlistOpen(false)}
+        items={wishlistItems}
+        onRemoveFromWishlist={removeFromWishlist}
+        onAddToCart={addToCart}
+      />
+
+      {/* Cart Modal */}
+      <Cart
+        isOpen={isCartOpen}
+        onClose={() => setIsCartOpen(false)}
+        items={cartItems}
+        onRemoveFromCart={removeFromCart}
+        onUpdateQuantity={updateCartQuantity}
+      />
+
+      {/* Toast Notifications */}
+      <Toast
+        message={toast.message}
+        isVisible={toast.isVisible}
+        onClose={() => setToast({ ...toast, isVisible: false })}
+        type={toast.type}
+      />
 
       {/* Product Preview Modal */}
       {previewProduct && (
