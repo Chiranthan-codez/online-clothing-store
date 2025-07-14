@@ -568,7 +568,10 @@ export default function Index() {
   if (currentPage === "brands") {
     return (
       <>
-        <Brands onBack={() => setCurrentPage("home")} />
+        <Brands
+          onBack={() => setCurrentPage("home")}
+          onBrandSelect={handleBrandSelect}
+        />
         <Wishlist
           isOpen={isWishlistOpen}
           onClose={() => setIsWishlistOpen(false)}
