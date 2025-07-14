@@ -152,7 +152,7 @@ const categories = [
 
 const heroShoes = [
   "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
-  "https://cdn.builder.io/api/v1/image/assets%2F8b39261676d1488287ee26a617ce70a7%2F242d36c5328d484294f3191d3a0c4f47",
+  "https://cdn.builder.io/api/v1/image/assets%2F8b39261676d1488287ee26a617ce70a7%2F8acfe831d390479c9fa8ca92e24c4b6e",
   "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&h=600&fit=crop&crop=center",
 ];
 
@@ -974,13 +974,13 @@ export default function Index() {
                 <img
                   src={heroShoes[currentHeroImage]}
                   alt="Featured Shoe"
-                  className="w-full h-full object-contain transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 ease-out"
+                  className="w-full h-full object-contain transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-500 ease-out font-medium border-gray-500 pb-4 -mr-4 -mt-1"
                 />
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl animate-pulse"></div>
                 <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-brand-300/30 rounded-full blur-2xl animate-pulse delay-1000"></div>
               </div>
               {/* Hero Image Selector */}
-              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
+              <div className="absolute -top-[588px] left-[223px] transform -translate-x-1/2 flex gap-2">
                 {heroShoes.map((_, index) => (
                   <button
                     key={index}
