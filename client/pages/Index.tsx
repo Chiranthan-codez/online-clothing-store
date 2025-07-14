@@ -799,6 +799,7 @@ export default function Index() {
                 className="group cursor-pointer hover:shadow-xl transition-all duration-500 border-0 bg-gradient-to-br from-card to-muted/50 overflow-hidden transform hover:scale-105 hover:-translate-y-2"
                 onMouseEnter={() => setHoveredCategory(index)}
                 onMouseLeave={() => setHoveredCategory(null)}
+                onClick={() => setCurrentPage(category.name.toLowerCase())}
               >
                 <div className="relative h-32 overflow-hidden">
                   <img
