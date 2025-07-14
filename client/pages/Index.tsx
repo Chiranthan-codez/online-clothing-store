@@ -19,6 +19,11 @@ import Men from "./Men";
 import Women from "./Women";
 import Kids from "./Kids";
 import Sale from "./Sale";
+import Categories from "./Categories";
+import Running from "./Running";
+import Casual from "./Casual";
+import Training from "./Training";
+import Lifestyle from "./Lifestyle";
 
 const featuredProducts = [
   {
