@@ -251,6 +251,135 @@ export default function Index() {
     setIsMenuOpen(false);
   };
 
+  // Render different pages based on current page
+  if (currentPage === "men") {
+    return (
+      <>
+        <Men
+          onBack={() => setCurrentPage("home")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "women") {
+    return (
+      <>
+        <Women
+          onBack={() => setCurrentPage("home")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "kids") {
+    return (
+      <>
+        <Kids
+          onBack={() => setCurrentPage("home")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
+  if (currentPage === "sale") {
+    return (
+      <>
+        <Sale
+          onBack={() => setCurrentPage("home")}
+          onAddToWishlist={addToWishlist}
+          onAddToCart={addToCart}
+        />
+        <Wishlist
+          isOpen={isWishlistOpen}
+          onClose={() => setIsWishlistOpen(false)}
+          items={wishlistItems}
+          onRemoveFromWishlist={removeFromWishlist}
+          onAddToCart={addToCart}
+        />
+        <Cart
+          isOpen={isCartOpen}
+          onClose={() => setIsCartOpen(false)}
+          items={cartItems}
+          onRemoveFromCart={removeFromCart}
+          onUpdateQuantity={updateCartQuantity}
+        />
+        <Toast
+          message={toast.message}
+          isVisible={toast.isVisible}
+          onClose={() => setToast({ ...toast, isVisible: false })}
+          type={toast.type}
+        />
+      </>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background" onMouseMove={handleMouseMove}>
       {/* Floating Cursor Shoe */}
