@@ -27,6 +27,7 @@ import Lifestyle from "./Lifestyle";
 import Brands from "./Brands";
 import AllProducts from "./AllProducts";
 import SearchResults from "./SearchResults";
+import BrandProducts from "./BrandProducts";
 
 const featuredProducts = [
   {
