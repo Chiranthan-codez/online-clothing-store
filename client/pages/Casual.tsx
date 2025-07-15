@@ -24,7 +24,7 @@ const casualShoes = [
   {
     id: 602,
     name: "Chuck Taylor All Star",
-    brand: "Converse",
+    brand: "Nike",
     price: 89,
     originalPrice: null,
     image:
