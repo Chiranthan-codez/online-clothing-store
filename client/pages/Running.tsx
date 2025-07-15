@@ -44,7 +44,7 @@ const runningShoes = [
     price: 189,
     originalPrice: 219,
     image:
-      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      "https://tse4.mm.bing.net/th/id/OIP.4UQxXxpOAJzeWHkKF1m03wHaE7?pid=ImgDet&w=184&h=122&c=7&dpr=1.3&o=7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
     rating: 4.9,
