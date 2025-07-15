@@ -380,6 +380,38 @@ const brandProductsData: { [key: string]: any[] } = {
       category: "Lifestyle",
       colors: ["Black", "White", "Red"],
     },
+    {
+      id: 4007,
+      name: "Chuck 70 High Top",
+      brand: "Converse",
+      price: 109,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 445,
+      isNew: false,
+      category: "Lifestyle",
+      colors: ["Black", "White", "Cream"],
+    },
+    {
+      id: 4008,
+      name: "Run Star Hike",
+      brand: "Converse",
+      price: 129,
+      originalPrice: 149,
+      image:
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
+      rating: 4.3,
+      reviews: 267,
+      isNew: true,
+      category: "Lifestyle",
+      colors: ["Black", "Pink", "Yellow"],
+    },
   ],
   reebok: [
     {
