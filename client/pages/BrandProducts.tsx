@@ -573,8 +573,7 @@ export default function BrandProducts({
                       </Badge>
                     </div>
                     <Button
-                      className="w-full hover:bg-red-600 hover:text-white transition-all duration-300 transform group-hover:scale-105"
-                      style={{ backgroundColor: "rgba(220, 38, 38, 1)" }}
+                      className="w-full bg-primary text-primary-foreground hover:bg-primary/90 dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/80 transition-all duration-300 transform group-hover:scale-105"
                       onClick={(e) => {
                         e.stopPropagation();
                         onAddToCart(product);
