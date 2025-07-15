@@ -28,7 +28,7 @@ const saleShoes = [
     price: 99,
     originalPrice: 159,
     image:
-      "https://images.unsplash.com/photo-1551107696-a4b537c892db?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
     hoverImage:
       "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=400&fit=crop&crop=center",
     rating: 4.6,
