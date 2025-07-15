@@ -24,7 +24,7 @@ const trainingShoes = [
   {
     id: 702,
     name: "Nano X2",
-    brand: "Reebok",
+    brand: "Nike",
     price: 179,
     originalPrice: null,
     image:
@@ -44,7 +44,7 @@ const trainingShoes = [
     price: 189,
     originalPrice: 219,
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      "https://tse1.mm.bing.net/th/id/OIP.wAME1sOQV5SZAkteehL9HAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
@@ -60,7 +60,7 @@ const trainingShoes = [
     price: 169,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      "https://tse1.mm.bing.net/th/id/OIP._nRqLAx4fZE1rJuQAYfLrwHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
     rating: 4.5,
@@ -76,7 +76,7 @@ const trainingShoes = [
     price: 159,
     originalPrice: 179,
     image:
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      "https://th.bing.com/th/id/OIP.AWoKA_TKLbC7QGzoKZK_kwHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     hoverImage:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
     rating: 4.4,
@@ -92,7 +92,7 @@ const trainingShoes = [
     price: 149,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      "https://tse1.mm.bing.net/th/id/OIP.Zac3A-1J5HKErVdib156EwHaFI?pid=ImgDet&w=184&h=127&c=7&dpr=1.3&o=7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
     rating: 4.6,
