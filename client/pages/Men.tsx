@@ -82,7 +82,7 @@ const menShoes = [
     price: 149,
     originalPrice: 179,
     image:
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+      "https://3.bp.blogspot.com/-_dGgTPvNK7g/UAfEpWd8SII/AAAAAAAAAHM/NzGMM2pVcNo/s1600/pumashoes01.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     rating: 4.5,
