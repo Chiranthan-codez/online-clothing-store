@@ -44,7 +44,7 @@ const lifestyleShoes = [
     price: 119,
     originalPrice: 139,
     image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e3ac8de8-8a06-44be-a623-2288d542ec23/custom-dunk-high-unlocked-by-you.png",
     hoverImage:
       "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=400&h=400&fit=crop&crop=center",
     rating: 4.6,
