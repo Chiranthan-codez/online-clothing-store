@@ -65,14 +65,7 @@ const featuredProducts = [
       "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400&h=400&fit=crop&crop=center",
     hoverImage:
       "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&h=400&fit=crop&crop=center",
-    previewImages: [
-      "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&crop=center",
-    ],
+   
     rating: 4.6,
     reviews: 89,
     isNew: false,
