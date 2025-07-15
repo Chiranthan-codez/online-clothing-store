@@ -28,7 +28,7 @@ const trainingShoes = [
     price: 179,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      "https://cdn.mos.cms.futurecdn.net/mBuSEJCZTH5JHJvZypH5Wk-1200-80.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
     rating: 4.6,
