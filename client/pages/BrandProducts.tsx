@@ -125,7 +125,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 169,
       originalPrice: 199,
       image:
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+        "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8a9efd65-db93-482c-94f0-ad34a3b21265/air-max-270-mens-shoes-KkLcGR.png",
       hoverImage:
         "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
