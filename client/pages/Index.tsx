@@ -151,7 +151,7 @@ const categories = [
 ];
 
 const heroShoes = [
-  "https://www.sneakerfiles.com/wp-content/uploads/2012/07/USA-Mens-Basketball-Team-Debut-NikeiD-Shoes-6.jpg",
+  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
   "https://cdn.builder.io/api/v1/image/assets%2F8b39261676d1488287ee26a617ce70a7%2F8acfe831d390479c9fa8ca92e24c4b6e",
   "C:\Users\Chiranthan\Downloads\pb1p163l.png",
 ];
