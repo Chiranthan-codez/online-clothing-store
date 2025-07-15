@@ -159,7 +159,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 199,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=400&h=400&fit=crop&crop=center",
+        "https://footwearnews.com/wp-content/uploads/2023/02/Ultraboost_Light_Running_Shoes_Black_HQ6339_01_standard-e1677164866275.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
