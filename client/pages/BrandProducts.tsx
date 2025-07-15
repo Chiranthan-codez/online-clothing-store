@@ -346,6 +346,22 @@ const brandProductsData: { [key: string]: any[] } = {
       category: "Training",
       colors: ["White", "Red", "Blue"],
     },
+    {
+      id: 3009,
+      name: "AMG casual shoes",
+      brand: "Puma",
+      price: 189,
+      originalPrice: null,
+      image:
+        "https://th.bing.com/th/id/R.e8307b43eef08b16af8f8a8e4aafb361?rik=ci72eaCM2FOcRQ&riu=http%3a%2f%2frukmini1.flixcart.com%2fimage%2f300%2f300%2fxif0q%2fshoe%2fg%2fc%2fe%2f-original-imahfhnrbk2zkyxf.jpeg&ehk=3h78Y1icpo1XnPwfFG5iXsRjoyXiprQGsmMg%2fbqeghY%3d&risl=&pid=ImgRaw&r=0",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 156,
+      isNew: false,
+      category: "Training",
+      colors: ["White", "Red", "Blue"],
+    },
   ],
   converse: [
     {
