@@ -98,11 +98,11 @@ const featuredProducts = [
   {
     id: 4,
     name: "Classic Canvas",
-    brand: "Converse",
+    brand: "Adidas",
     price: 89,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+      "https://rarest.org/wp-content/uploads/2022/06/Adidas-x-Pharrell-x-Chanel-Human-Race-Trail-NMD.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     rating: 4.4,
