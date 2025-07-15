@@ -21,8 +21,8 @@ const brands = [
   },
   {
     name: "Puma",
-    logo: "image.png",
-    description: "https://toppng.com/uploads/preview/puma-se-eps-vector-logo-free-115740607141kgzpimpmj.png",
+    logo: "https://toppng.com/uploads/preview/puma-se-eps-vector-logo-free-115740607141kgzpimpmj.png",
+    description: "Fast and fuming",
     founded: "1948",
     products: "80+ shoes",
     specialty: "Performance & Style",
