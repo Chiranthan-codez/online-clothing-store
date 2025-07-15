@@ -455,7 +455,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 169,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+        "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/n/b/nbm990gr2_1.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
@@ -466,12 +466,76 @@ const brandProductsData: { [key: string]: any[] } = {
     },
     {
       id: 6002,
-      name: "Training Flex",
+      name: "Training Flex1",
       brand: "New Balance",
       price: 149,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+        "https://tse3.mm.bing.net/th/id/OIP.s9_ampNtyfUMpmLQoFiPUwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 198,
+      isNew: true,
+      category: "Training",
+      colors: ["Navy", "Gray", "White"],
+    },
+    {
+      id: 6003,
+      name: "Training Flex2D",
+      brand: "New Balance",
+      price: 149,
+      originalPrice: null,
+      image:
+        "https://tse1.mm.bing.net/th/id/OIP.JNwsN7a3wIKQuVBRwGfZygAAAA?w=474&h=474&rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 198,
+      isNew: true,
+      category: "Training",
+      colors: ["Navy", "Gray", "White"],
+    },
+    {
+      id: 6004,
+      name: "Training Flex3X",
+      brand: "New Balance",
+      price: 149,
+      originalPrice: null,
+      image:
+        "https://tse4.mm.bing.net/th/id/OIP.RiXYe7zaDB71dTferMmi5gHaHa?w=2048&h=2048&rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 198,
+      isNew: true,
+      category: "Training",
+      colors: ["Navy", "Gray", "White"],
+    },
+    {
+      id: 6005,
+      name: "Training Flex4Y",
+      brand: "New Balance",
+      price: 149,
+      originalPrice: null,
+      image:
+        "https://tse3.mm.bing.net/th/id/OIP.s9_ampNtyfUMpmLQoFiPUwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 198,
+      isNew: true,
+      category: "Training",
+      colors: ["Navy", "Gray", "White"],
+    },
+    {
+      id: 6006,
+      name: "Training Flex6X",
+      brand: "New Balance",
+      price: 149,
+      originalPrice: null,
+      image:
+        "https://tse3.mm.bing.net/th/id/OIP.s9_ampNtyfUMpmLQoFiPUwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
       hoverImage:
         "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
