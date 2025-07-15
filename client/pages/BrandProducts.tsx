@@ -1043,7 +1043,87 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 59,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=400&fit=crop&crop=center",
+        "https://i5.walmartimages.com/asr/46a00315-01c9-4b37-ac3b-6fcd7ba9dcc0_1.39b2d111588ae2fdcdb8dd49a24a30ed.jpeg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 203,
+      isNew: false,
+      category: "Casual",
+      colors: ["Pink", "Purple", "Silver"],
+    },
+    {
+      id: 12002,
+      name: "Princess Sparkle",
+      brand: "Skechers",
+      price: 59,
+      originalPrice: null,
+      image:
+        "https://th.bing.com/th/id/OIP.QZSSuJy4QLNhf4ndPc8JrgHaFj?w=255&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 203,
+      isNew: false,
+      category: "Casual",
+      colors: ["Pink", "Purple", "Silver"],
+    },
+    {
+      id: 12003,
+      name: "Princess Sparkle",
+      brand: "Skechers",
+      price: 59,
+      originalPrice: null,
+      image:
+        "https://th.bing.com/th/id/OIP.SHBZefbfT97M9h_qLPtYqgHaGJ?w=229&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 203,
+      isNew: false,
+      category: "Casual",
+      colors: ["Pink", "Purple", "Silver"],
+    },
+    {
+      id: 12004,
+      name: "Princess Sparkle",
+      brand: "Skechers",
+      price: 59,
+      originalPrice: null,
+      image:
+        "https://cdna.lystit.com/photos/amazon/810c9abe/skechers-Black-Max-Protect-Trainers.jpeg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 203,
+      isNew: false,
+      category: "Casual",
+      colors: ["Pink", "Purple", "Silver"],
+    },
+    {
+      id: 12005,
+      name: "Princess Sparkle",
+      brand: "Skechers",
+      price: 59,
+      originalPrice: null,
+      image:
+        "https://tse4.mm.bing.net/th/id/OIP.TSo2S1f0wxGvgpfS6_6h9gAAAA?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 203,
+      isNew: false,
+      category: "Casual",
+      colors: ["Pink", "Purple", "Silver"],
+    },
+    {
+      id: 12006,
+      name: "Princess Sparkle",
+      brand: "Skechers",
+      price: 59,
+      originalPrice: null,
+      image:
+        "https://cdna.lystit.com/1200/630/tr/photos/zappos/f178bf7c/skechers-Black-Skech-Air-Ventura.jpeg",
       hoverImage:
         "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
       rating: 4.9,
