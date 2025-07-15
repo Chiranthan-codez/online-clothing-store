@@ -76,7 +76,7 @@ const casualShoes = [
     price: 119,
     originalPrice: 139,
     image:
-      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&crop=center",
+      "https://cdn.sportsshoes.com/product/P/PUM2450/PUM2450_400_8.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=400&fit=crop&crop=center",
     rating: 4.3,
