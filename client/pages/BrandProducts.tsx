@@ -371,7 +371,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 49,
       originalPrice: 89,
       image:
-        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+        "https://wallpapercave.com/wp/wp2924223.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
       rating: 4.4,
