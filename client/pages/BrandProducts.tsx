@@ -314,6 +314,38 @@ const brandProductsData: { [key: string]: any[] } = {
       category: "Training",
       colors: ["Yellow", "Black", "Blue"],
     },
+    {
+      id: 3007,
+      name: "RS-X Puzzle",
+      brand: "Puma",
+      price: 129,
+      originalPrice: 149,
+      image:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.4,
+      reviews: 289,
+      isNew: true,
+      category: "Lifestyle",
+      colors: ["Multi", "Black", "White"],
+    },
+    {
+      id: 3008,
+      name: "Clyde All-Pro",
+      brand: "Puma",
+      price: 189,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 156,
+      isNew: false,
+      category: "Training",
+      colors: ["White", "Red", "Blue"],
+    },
   ],
   converse: [
     {
