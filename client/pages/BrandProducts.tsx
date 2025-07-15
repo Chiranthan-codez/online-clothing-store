@@ -337,7 +337,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 189,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_300,h_300/global/378068/24/fnd/PNA/fmt/png/Softride-Enzo-Evo-Women's-Running-Shoes",
       hoverImage:
         "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
