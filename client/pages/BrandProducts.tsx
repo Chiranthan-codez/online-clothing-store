@@ -847,7 +847,87 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 179,
       originalPrice: 199,
       image:
-        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+        "https://th.bing.com/th/id/OIP.C0--Ej3m4uPJeB4XP6i7ZAHaE7?w=279&h=186&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 234,
+      isNew: true,
+      category: "Running",
+      colors: ["Black", "Red", "White"],
+    },
+    {
+      id: 10002,
+      name: "Ghost 14",
+      brand: "Brooks",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.hksdBTxR8W-ywTNTqxUFsgHaD4?pid=ImgDet&w=184&h=96&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 234,
+      isNew: true,
+      category: "Running",
+      colors: ["Black", "Red", "White"],
+    },
+    {
+      id: 10003,
+      name: "Ghost 14",
+      brand: "Brooks",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://tse1.mm.bing.net/th/id/OIP.teBZbg_M-LVSHQi76e0VMQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 234,
+      isNew: true,
+      category: "Running",
+      colors: ["Black", "Red", "White"],
+    },
+    {
+      id: 10004,
+      name: "Ghost 14",
+      brand: "Brooks",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.HGmL_WRxqzXaQi-OIcj-OgHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 234,
+      isNew: true,
+      category: "Running",
+      colors: ["Black", "Red", "White"],
+    },
+    {
+      id: 10005,
+      name: "Ghost 14",
+      brand: "Brooks",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://tse4.mm.bing.net/th/id/OIP.Ua8gFzlg-G1LtKAinCqXdQAAAA?pid=ImgDet&w=184&h=137&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 234,
+      isNew: true,
+      category: "Running",
+      colors: ["Black", "Red", "White"],
+    },
+    {
+      id: 10006,
+      name: "Ghost 14",
+      brand: "Brooks",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://tse3.mm.bing.net/th/id/OIP.MjA6VmNZJId_MOe7JdQjQQAAAA?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
       hoverImage:
         "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
       rating: 4.8,
@@ -865,7 +945,87 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 249,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "https://media.endclothing.com/media/catalog/product/2/7/27-10-2022_ECC_TB0A2AU1F13_m1_1.jpg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 203,
+      isNew: false,
+      category: "Outdoor",
+           colors: ["Brown", "Black", "Tan"],
+    },
+    {
+      id: 11002,
+      name: "Classic Leather Boot",
+      brand: "Timberland",
+      price: 249,
+      originalPrice: null,
+      image:
+        "https://media.endclothing.com/media/catalog/product/1/3/13-03-2023-BLR_TB0A5RDGDH41_1_1.jpg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 203,
+      isNew: false,
+      category: "Outdoor",
+      colors: ["Brown", "Black", "Tan"],
+    },
+    {
+      id: 11003,
+      name: "Classic Leather Boot",
+      brand: "Timberland",
+      price: 249,
+      originalPrice: null,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.Dc6K0o1X25U5MVuUY3h3AQAAAA?w=400&h=502&rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 203,
+      isNew: false,
+      category: "Outdoor",
+      colors: ["Brown", "Black", "Tan"],
+    },
+    {
+      id: 11004,
+      name: "Classic Leather Boot",
+      brand: "Timberland",
+      price: 249,
+      originalPrice: null,
+      image:
+        "https://ts3.mm.bing.net/th?id=OIP.6boJKB5-EWCgiRG3x5a5UQHaI4&pid=15.1",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 203,
+      isNew: false,
+      category: "Outdoor",
+      colors: ["Brown", "Black", "Tan"],
+    },
+    {
+      id: 11005,
+      name: "Classic Leather Boot",
+      brand: "Timberland",
+      price: 249,
+      originalPrice: null,
+      image:
+        "https://tse4.mm.bing.net/th/id/OIP.XBePOqJc5HeZz39xwzIS3AHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 203,
+      isNew: false,
+      category: "Outdoor",
+      colors: ["Brown", "Black", "Tan"],
+    },
+    {
+      id: 11006,
+      name: "Classic Leather Boot",
+      brand: "Timberland",
+      price: 249,
+      originalPrice: null,
+      image:
+        "https://i.stpost.com/timberland-6-premium-boots-waterproof-insulated-for-men-in-dark-beige-nubuck~p~ds593_02~1500.2.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
