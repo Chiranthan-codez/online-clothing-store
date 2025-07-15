@@ -38,7 +38,7 @@ const allProducts = [
     price: 199,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/06c488fc8b364ff1bdbfe398bb98a406_9366/Y-3_Ultraboost_5_Black_IH0871_01_standard.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
     rating: 4.7,
