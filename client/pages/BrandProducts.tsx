@@ -289,7 +289,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 119,
       originalPrice: 139,
       image:
-        "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&crop=center",
+        "https://img.tatacliq.com/images/i12/658Wx734H/MP000000018611159_658Wx734H_202308071422044.jpeg",
       hoverImage:
         "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=400&fit=crop&crop=center",
       rating: 4.3,
