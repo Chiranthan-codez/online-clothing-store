@@ -58,7 +58,7 @@ const featuredProducts = [
   {
     id: 2,
     name: "Urban Walker Pro",
-    brand: "Adidas",
+    brand: "Nike Air Jordan",
     price: 139,
     originalPrice: null,
     image:
