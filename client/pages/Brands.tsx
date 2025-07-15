@@ -21,7 +21,7 @@ const brands = [
   },
   {
     name: "Puma",
-    logo: "https://static.vecteezy.com/system/resources/previews/022/076/746/original/puma-logo-and-art-free-vector.jpg",
+    logo: "https://tse4.mm.bing.net/th/id/OIP.dZH1Sq0vvheXkX8LKJKPQgHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
     description: "Forever Faster",
     founded: "1948",
     products: "80+ shoes",
