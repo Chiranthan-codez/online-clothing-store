@@ -255,7 +255,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 149,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1584735175315-9d5df23860e8?w=400&h=400&fit=crop&crop=center",
+        "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/21ba89e1a28e4ce6961d0b4eeb044354_9366/adizero-sl2-running-shoes.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
