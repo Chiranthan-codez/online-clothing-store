@@ -15,6 +15,12 @@ const kidsShoes = [
       "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     hoverImage:
       "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+    previewImages: [
+      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop&crop=center",
+    ],
     rating: 4.8,
     reviews: 156,
     isNew: true,
