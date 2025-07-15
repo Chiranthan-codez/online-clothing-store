@@ -8,7 +8,7 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes for every distance",
     image:
-      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/51617258-d7d7-43ce-b2b2-74da0c9e0352/journey-run-road-running-shoes-Q5kF8v.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/12d0d09c-26bf-4d4a-9f66-04abb3a17f79/NIKE+AIR+WINFLO+11+WIDE.png",
     count: "120+ shoes",
     route: "running",
   },
