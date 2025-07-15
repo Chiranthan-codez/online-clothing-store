@@ -102,6 +102,54 @@ const brandProductsData: { [key: string]: any[] } = {
       category: "Women",
       colors: ["Rose Gold", "White", "Pink"],
     },
+    {
+      id: 1007,
+      name: "Air Force 1 Low",
+      brand: "Nike",
+      price: 119,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 892,
+      isNew: false,
+      category: "Lifestyle",
+      colors: ["White", "Black", "Red"],
+    },
+    {
+      id: 1008,
+      name: "React Element 55",
+      brand: "Nike",
+      price: 169,
+      originalPrice: 199,
+      image:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 445,
+      isNew: false,
+      category: "Running",
+      colors: ["Gray", "Blue", "Black"],
+    },
+    {
+      id: 1009,
+      name: "Dunk Low Premium",
+      brand: "Nike",
+      price: 139,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 567,
+      isNew: true,
+      category: "Lifestyle",
+      colors: ["White", "Green", "Orange"],
+    },
   ],
   adidas: [
     {
