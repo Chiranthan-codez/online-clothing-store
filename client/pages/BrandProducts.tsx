@@ -223,7 +223,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3d1378302174857a14819683114d7cf_9366/adizero-boston-12-running-shoes.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
       rating: 4.8,
