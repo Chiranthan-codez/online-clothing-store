@@ -132,7 +132,7 @@ const categories = [
     icon: "👟",
     description: "Everyday comfort",
     image:
-      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=300&h=200&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=300&h=200&fit=crop&crop=center",
   },
   {
     name: "Training",
