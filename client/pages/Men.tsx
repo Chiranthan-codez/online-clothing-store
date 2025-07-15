@@ -34,7 +34,7 @@ const menShoes = [
     price: 249,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      "https://i.stpost.com/timberland-6-premium-boots-waterproof-insulated-for-men-in-dark-beige-nubuck~p~ds593_02~1500.2.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
     rating: 4.7,
