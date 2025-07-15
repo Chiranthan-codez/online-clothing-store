@@ -207,7 +207,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 189,
       originalPrice: 219,
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/90c6a6fa827a4da18102d9ede0382778_9366/Adizero_Boston_12_Shoes_Black_ID4234_HM1.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
       rating: 4.8,
