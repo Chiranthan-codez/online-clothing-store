@@ -305,7 +305,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 159,
       originalPrice: 179,
       image:
-        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+        "https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/a/b/abb4d85puma-38059802_1.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
       rating: 4.4,
