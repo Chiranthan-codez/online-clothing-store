@@ -119,7 +119,7 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes",
     image:
-      "https://www.sneakerfiles.com/wp-content/uploads/2012/07/USA-Mens-Basketball-Team-Debut-NikeiD-Shoes-6.jpg",
+      "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/31f2acf8-1aad-4267-b7d3-74bef760845d/revolution-6-womens-road-running-shoes-6QLh9B.png",
     gallery: [
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
       "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=600&h=400&fit=crop&crop=center",
