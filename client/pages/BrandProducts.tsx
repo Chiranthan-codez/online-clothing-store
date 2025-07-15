@@ -175,7 +175,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 129,
       originalPrice: 149,
       image:
-        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+        "https://assets.adidas.com/images/w_600,f_auto,q_auto/3e0a851dc25f4404981abd72fe8d02ee_9366/Solarcontrol_2.0_Shoes_Black_HP9648_01_standard.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
