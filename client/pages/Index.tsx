@@ -139,7 +139,7 @@ const categories = [
     icon: "💪",
     description: "Gym & fitness",
     image:
-      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=300&h=200&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=300&h=200&fit=crop&crop=center",
   },
   {
     name: "Lifestyle",
