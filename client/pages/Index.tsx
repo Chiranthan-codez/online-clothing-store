@@ -912,7 +912,7 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-brand-50 via-background to-accent/20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-brand-50 dark:via-background dark:to-accent/20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
