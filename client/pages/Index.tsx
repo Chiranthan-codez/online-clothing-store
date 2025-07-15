@@ -1208,7 +1208,7 @@ export default function Index() {
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-gradient-to-r from-primary to-brand-600 text-primary-foreground border-0 overflow-hidden relative group">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800&h=400&fit=crop&crop=center')] opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=400&fit=crop&crop=center')] opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
             <CardContent className="p-8 lg:p-12 text-center space-y-6 relative z-10">
               <h2 className="text-2xl lg:text-3xl font-bold">
                 Stay in the Loop
