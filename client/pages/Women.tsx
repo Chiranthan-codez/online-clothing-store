@@ -28,9 +28,9 @@ const womenShoes = [
     price: 599,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
     hoverImage:
-      "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
     reviews: 167,
     isNew: false,
