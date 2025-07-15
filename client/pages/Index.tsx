@@ -1072,11 +1072,7 @@ export default function Index() {
               >
                 <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-muted/50 to-card">
                   <img
-                    src={
-                      hoveredProduct === product.id
-                        ? product.hoverImage
-                        : product.image
-                    }
+                    src={product.image}
                     alt={product.name}
                     className="w-full h-full object-cover p-4 group-hover:scale-110 transition-all duration-500 ease-out"
                   />
