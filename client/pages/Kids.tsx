@@ -8,7 +8,7 @@ const kidsShoes = [
   {
     id: 301,
     name: "Rainbow Sneaker",
-    brand: "Nike Kids",
+    brand: "Coverse Kids",
     price: 89,
     originalPrice: 109,
     image:
@@ -30,7 +30,7 @@ const kidsShoes = [
   {
     id: 302,
     name: "Little Explorer",
-    brand: "Adidas Kids",
+    brand: "Nike Kids",
     price: 79,
     originalPrice: null,
     image:
@@ -46,7 +46,7 @@ const kidsShoes = [
   {
     id: 303,
     name: "School Runner",
-    brand: "Puma Kids",
+    brand: "New Balance Kids",
     price: 69,
     originalPrice: 89,
     image:
