@@ -12,9 +12,9 @@ const lifestyleShoes = [
     price: 149,
     originalPrice: 169,
     image:
-      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1463100099107-aa0980c362e6?w=400&h=400&fit=crop&crop=center",
     hoverImage:
-      "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop&crop=center",
     rating: 4.5,
     reviews: 387,
     isNew: true,
