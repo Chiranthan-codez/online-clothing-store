@@ -12,7 +12,7 @@ const trainingShoes = [
     price: 199,
     originalPrice: 229,
     image:
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      "https://staticg.sportskeeda.com/editor/2024/04/0c58e-17135415029185-1920.jpg?w=1600",
     hoverImage:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
     rating: 4.7,
