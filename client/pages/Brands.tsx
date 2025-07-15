@@ -21,7 +21,7 @@ const brands = [
   },
   {
     name: "Puma",
-    logo: "https://th.bing.com/th/id/OIP.khmAzcumUohd9aQ3Z0JdOwHaGD?w=206&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    logo: "image.png",
     description: "Forever Faster",
     founded: "1948",
     products: "80+ shoes",
