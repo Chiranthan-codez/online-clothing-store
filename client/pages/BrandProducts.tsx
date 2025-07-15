@@ -216,6 +216,54 @@ const brandProductsData: { [key: string]: any[] } = {
       category: "Training",
       colors: ["Gray", "Black", "Green"],
     },
+    {
+      id: 2007,
+      name: "Superstar Shell Toe",
+      brand: "Adidas",
+      price: 99,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+      rating: 4.8,
+      reviews: 1234,
+      isNew: false,
+      category: "Lifestyle",
+      colors: ["White", "Black", "Gold"],
+    },
+    {
+      id: 2008,
+      name: "NMD R1 V2",
+      brand: "Adidas",
+      price: 179,
+      originalPrice: 199,
+      image:
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 678,
+      isNew: true,
+      category: "Lifestyle",
+      colors: ["Black", "Red", "Blue"],
+    },
+    {
+      id: 2009,
+      name: "Solar Glide 5",
+      brand: "Adidas",
+      price: 149,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
+      rating: 4.6,
+      reviews: 345,
+      isNew: false,
+      category: "Running",
+      colors: ["Blue", "Orange", "White"],
+    },
   ],
   puma: [
     {
