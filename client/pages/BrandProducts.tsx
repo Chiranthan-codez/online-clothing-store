@@ -255,9 +255,9 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 149,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1584735175315-9d5df23860e8?w=400&h=400&fit=crop&crop=center",
       hoverImage:
-        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
       reviews: 345,
       isNew: false,
