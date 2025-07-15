@@ -585,7 +585,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+        "https://cdna.lystit.com/520/650/n/photos/vans/8d09ff65/vans-Green-Ultrarange-Exo-Shoes.jpeg",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
@@ -601,7 +601,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+        "https://www.bluezonesports.com/prodimages/alt_images/large/vn0a4u1k4m01-shoes.png",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
@@ -617,7 +617,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+        "https://i.pinimg.com/originals/83/21/25/832125c2019684f732cf5b3e3b1588c2.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
@@ -633,7 +633,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+        "https://cdn11.bigcommerce.com/s-4p95v359ow/images/stencil/1280x1280/products/4804/7572/Screen_Shot_2021-10-19_at_8.38.12_PM__10980.1634701274.png?c=1",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
       rating: 4.7,
