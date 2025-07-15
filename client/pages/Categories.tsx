@@ -8,7 +8,7 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes for every distance",
     image:
-      "https://tse4.mm.bing.net/th/id/OIP.wVw_RRtB0WAEL3mSdXq6jQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/51617258-d7d7-43ce-b2b2-74da0c9e0352/journey-run-road-running-shoes-Q5kF8v.png",
     count: "120+ shoes",
     route: "running",
   },
