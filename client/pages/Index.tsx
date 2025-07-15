@@ -119,7 +119,7 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes",
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=200&fit=crop&crop=center",
     gallery: [
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
       "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=600&h=400&fit=crop&crop=center",
