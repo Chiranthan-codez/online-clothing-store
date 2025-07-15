@@ -239,7 +239,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 179,
       originalPrice: 199,
       image:
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+        "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d5949e110c4d46618e34adf9017834ec_9366/solarglide-5-shoes.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
       rating: 4.5,
