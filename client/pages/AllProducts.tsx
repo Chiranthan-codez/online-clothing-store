@@ -13,9 +13,9 @@ const allProducts = [
     price: 219,
     originalPrice: 249,
     image:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?w=400&h=400&fit=crop&crop=center",
     hoverImage:
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1605367794049-84a5d8dde8e7?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
     reviews: 342,
     isNew: true,
