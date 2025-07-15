@@ -651,7 +651,87 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 169,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+        "https://i5.walmartimages.com/asr/69bec7fa-1707-4fcf-9820-c7df8a03012b_1.978b106a3b5ab65ffb6e88d092c98e94.jpeg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 189,
+      isNew: false,
+      category: "Training",
+      colors: ["Red", "Black", "White"],
+    },
+    {
+      id: 8002,
+      name: "HIIT Trainer",
+      brand: "Under Armour",
+      price: 169,
+      originalPrice: null,
+      image:
+        "https://cdna.lystit.com/photos/underarmour/3000356-402-Midnight%20Navy-067595f2-.jpeg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 189,
+      isNew: false,
+      category: "Training",
+      colors: ["Red", "Black", "White"],
+    },
+    {
+      id: 8003,
+      name: "HIIT Trainer",
+      brand: "Under Armour",
+      price: 169,
+      originalPrice: null,
+      image:
+        "https://www.sportsdirect.com/images/products/21308203_h.jpg",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 189,
+      isNew: false,
+      category: "Training",
+      colors: ["Red", "Black", "White"],
+    },
+    {
+      id: 8004,
+      name: "HIIT Trainer",
+      brand: "Under Armour",
+      price: 169,
+      originalPrice: null,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.VqOCRO_0pGq6qSZlHBpvgQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 189,
+      isNew: false,
+      category: "Training",
+      colors: ["Red", "Black", "White"],
+    },
+    {
+      id: 8005,
+      name: "HIIT Trainer",
+      brand: "Under Armour",
+      price: 169,
+      originalPrice: null,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.iUQvsX1EmqeKX2Wp2my3pwHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.5,
+      reviews: 189,
+      isNew: false,
+      category: "Training",
+      colors: ["Red", "Black", "White"],
+    },
+    {
+      id: 8006,
+      name: "HIIT Trainer",
+      brand: "Under Armour",
+      price: 169,
+      originalPrice: null,
+      image:
+        "https://tse4.mm.bing.net/th/id/OIP.HA8zKyGw2kPKmz84KL0gHAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
       hoverImage:
         "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
       rating: 4.5,
@@ -669,7 +749,87 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 189,
       originalPrice: 219,
       image:
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
+        "https://tse1.mm.bing.net/th/id/OIP.P0UI3-uV_qkCsOKgyhMAiAHaE8?pid=ImgDet&w=184&h=122&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 198,
+      isNew: true,
+      category: "Running",
+      colors: ["Orange", "Blue", "Black"],
+    },
+    {
+      id: 9002,
+      name: "Gel-Nimbus 24",
+      brand: "ASICS",
+      price: 189,
+      originalPrice: 219,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.bzium5vU4b2cUt0jRAcr8wHaFj?pid=ImgDet&w=184&h=138&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 198,
+      isNew: true,
+      category: "Running",
+      colors: ["Orange", "Blue", "Black"],
+    },
+    {
+      id: 9003,
+      name: "Gel-Nimbus 24",
+      brand: "ASICS",
+      price: 189,
+      originalPrice: 219,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.IdeflvaDpBFseBMKHO1apgHaFS?pid=ImgDet&w=184&h=131&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 198,
+      isNew: true,
+      category: "Running",
+      colors: ["Orange", "Blue", "Black"],
+    },
+    {
+      id: 9004,
+      name: "Gel-Nimbus 24",
+      brand: "ASICS",
+      price: 189,
+      originalPrice: 219,
+      image:
+        "https://tse2.mm.bing.net/th/id/OIP.jc7CLEmvgNr4fsPBEDvyowAAAA?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 198,
+      isNew: true,
+      category: "Running",
+      colors: ["Orange", "Blue", "Black"],
+    },
+    {
+      id: 9005,
+      name: "Gel-Nimbus 24",
+      brand: "ASICS",
+      price: 189,
+      originalPrice: 219,
+      image:
+        "https://tse1.mm.bing.net/th/id/OIP.UmKkWhTdcnU652-NrwBrTgHaEo?pid=ImgDet&w=184&h=115&c=7&dpr=1.3&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      rating: 4.9,
+      reviews: 198,
+      isNew: true,
+      category: "Running",
+      colors: ["Orange", "Blue", "Black"],
+    },
+    {
+      id: 9006,
+      name: "Gel-Nimbus 24",
+      brand: "ASICS",
+      price: 189,
+      originalPrice: 219,
+      image:
+        "https://images.contentstack.io/v3/assets/bltbb5996c454cd1f4d/bltf4bbe88d00ed1c57/662fca28b0544117199a27f0/asics_homepage_cards_superblast_050124.jpg?quality=80",
       hoverImage:
         "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
       rating: 4.9,
