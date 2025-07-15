@@ -321,7 +321,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 129,
       originalPrice: 149,
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194286/01/sv01/fnd/GBR/fmt/png/Axelion-Mesh-Shoes-Kids",
       hoverImage:
         "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
       rating: 4.4,
