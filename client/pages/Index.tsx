@@ -86,7 +86,7 @@ const featuredProducts = [
     price: 199,
     originalPrice: 249,
     image:
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=400&fit=crop&crop=center",
+      "https://staticc.sportskeeda.com/editor/2023/03/5120d-16777600528430-1920.jpg?w=840",
     hoverImage:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
     rating: 4.9,
