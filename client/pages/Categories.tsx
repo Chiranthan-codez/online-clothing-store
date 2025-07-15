@@ -8,7 +8,7 @@ const categories = [
     icon: "🏃",
     description: "Performance running shoes for every distance",
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
+      "https://tse4.mm.bing.net/th/id/OIP.wVw_RRtB0WAEL3mSdXq6jQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
     count: "120+ shoes",
     route: "running",
   },
