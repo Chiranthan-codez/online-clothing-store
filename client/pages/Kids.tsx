@@ -94,7 +94,7 @@ const kidsShoes = [
   {
     id: 306,
     name: "Comfort Walker",
-    brand: "Stride Rite",
+    brand: "Nike kids",
     price: 49,
     originalPrice: null,
     image:
