@@ -553,6 +553,86 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 99,
       originalPrice: null,
       image:
+        "https://tse3.mm.bing.net/th/id/OIP.fHT5EHrmeDfWWEEMHAfcawHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+      hoverImage:
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 342,
+      isNew: false,
+      category: "Casual",
+      colors: ["Black", "White", "Checkered"],
+    },
+    {
+      id: 7002,
+      name: "Old Skool",
+      brand: "Vans",
+      price: 99,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 342,
+      isNew: false,
+      category: "Casual",
+      colors: ["Black", "White", "Checkered"],
+    },
+    {
+      id: 7003,
+      name: "Old Skool",
+      brand: "Vans",
+      price: 99,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 342,
+      isNew: false,
+      category: "Casual",
+      colors: ["Black", "White", "Checkered"],
+    },
+    {
+      id: 7004,
+      name: "Old Skool",
+      brand: "Vans",
+      price: 99,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 342,
+      isNew: false,
+      category: "Casual",
+      colors: ["Black", "White", "Checkered"],
+    },
+    {
+      id: 7005,
+      name: "Old Skool",
+      brand: "Vans",
+      price: 99,
+      originalPrice: null,
+      image:
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+      hoverImage:
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
+      rating: 4.7,
+      reviews: 342,
+      isNew: false,
+      category: "Casual",
+      colors: ["Black", "White", "Checkered"],
+    },
+    {
+      id: 7006,
+      name: "Old Skool",
+      brand: "Vans",
+      price: 99,
+      originalPrice: null,
+      image:
         "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
