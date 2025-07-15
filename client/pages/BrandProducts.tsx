@@ -355,7 +355,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 89,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+        "https://media3.cgtrader.com/variants/YiEnGraq7pXgf168cqXJpngw/e44aa6a6359827c9089792cde0c079681b83d3b5c3037cc0525c25607e54355b/02e68861-f990-4e2c-82f2-a57c080f8a65.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
       rating: 4.4,
