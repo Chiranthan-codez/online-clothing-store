@@ -22,7 +22,7 @@ const brands = [
   {
     name: "Puma",
     logo: "image.png",
-    description: "Forever Faster",
+    description: "https://toppng.com/uploads/preview/puma-se-eps-vector-logo-free-115740607141kgzpimpmj.png",
     founded: "1948",
     products: "80+ shoes",
     specialty: "Performance & Style",
