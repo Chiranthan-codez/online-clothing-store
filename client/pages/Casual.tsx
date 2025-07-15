@@ -44,7 +44,7 @@ const casualShoes = [
     price: 109,
     originalPrice: 129,
     image:
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
+      "https://tse4.mm.bing.net/th/id/OIP.PaqMuVI00HD9owTWlCgVqQHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop&crop=center",
     rating: 4.5,
