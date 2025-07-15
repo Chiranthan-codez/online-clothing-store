@@ -403,7 +403,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 129,
       originalPrice: 149,
       image:
-        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop&crop=center",
+        "https://tse3.mm.bing.net/th/id/OIP.Fyp_72m9v3yZ5L4i_f-swgHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain&o=7&rm=3",
       hoverImage:
         "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
       rating: 4.3,
@@ -421,7 +421,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 179,
       originalPrice: null,
       image:
-        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop&crop=center",
+        "https://5.imimg.com/data5/KV/VO/MY-17913176/reebok-one-distance-2-0-running-shoes-500x500.jpg",
       hoverImage:
         "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
@@ -437,7 +437,7 @@ const brandProductsData: { [key: string]: any[] } = {
       price: 119,
       originalPrice: 139,
       image:
-        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=400&h=400&fit=crop&crop=center",
+        "https://tse3.mm.bing.net/th/id/OIP.ipvtKnkF-fZ9z-LRKck0VAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
       hoverImage:
         "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=400&fit=crop&crop=center",
       rating: 4.6,
