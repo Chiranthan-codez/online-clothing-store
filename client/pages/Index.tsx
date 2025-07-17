@@ -137,7 +137,7 @@ const categories = [
 ];
 
 const heroShoes = [
-  "https://www.bing.com/th?id=OPAC.73IpPDd%2b56vupw474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.4&o=2&c=8&pcl=f5f5f5",
+  "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/629243/33/mod01/fnd/IND/fmt/png/SUPER-Men's-Relaxed-Fit-Baseball-Jacket",
   "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
   "https://sneakerbardetroit.com/wp-content/uploads/2016/03/nike-lebron-9-elite-championship-1-768x895.jpg",
   "https://wallpapercave.com/wp/wp2958169.jpg",
