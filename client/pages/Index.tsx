@@ -55,7 +55,7 @@ const featuredProducts = [
     price: 139,
     originalPrice: null,
     image:
-      "https://th.bing.com/th/id/OIP.jlnbCXL6ki1bM8V1Ek7-JAHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9fe5c8c-e5dc-4200-b186-cb33d66510e2/miler-mens-dri-fit-uv-short-sleeve-running-top-lgg8JQ.png",
     hoverImage:
       "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&h=400&fit=crop&crop=center",
    
