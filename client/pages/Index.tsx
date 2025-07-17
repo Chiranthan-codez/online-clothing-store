@@ -128,7 +128,7 @@ const categories = [
     name: "Lifestyle",
     description: "Fashion forward",
     image:
-      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=200&fit=crop&crop=center",
+      "https://image.hm.com/assets/hm/ca/d0/cad0686c02b3163c9266e4e20a5af4dfe502e097.jpg?imwidth=1260",
   },
 ];
 
