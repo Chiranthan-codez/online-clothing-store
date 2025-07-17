@@ -137,7 +137,7 @@ const categories = [
 ];
 
 const heroShoes = [
-  "https://th.bing.com/th/id/OIP.SPCP_j80-UF7jaYK2s_mtgHaEL?w=290&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
+  "https://www.bing.com/th?id=OPAC.73IpPDd%2b56vupw474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.4&o=2&c=8&pcl=f5f5f5",
   "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center",
   "https://sneakerbardetroit.com/wp-content/uploads/2016/03/nike-lebron-9-elite-championship-1-768x895.jpg",
   "https://wallpapercave.com/wp/wp2958169.jpg",
