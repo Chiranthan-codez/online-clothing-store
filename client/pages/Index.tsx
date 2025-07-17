@@ -116,7 +116,7 @@ const categories = [
     name: "Casual",
     description: "Everyday comfort",
     image:
-      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=300&h=200&fit=crop&crop=center",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae1c0f0b-16b1-4819-a4b4-4e5a62d866c1/dri-fit-run-division-short-sleeve-running-top-GMvVmf.png",
   },
   {
     name: "Training",
