@@ -88,7 +88,7 @@ const featuredProducts = [
     price: 89,
     originalPrice: null,
     image:
-      "https://rarest.org/wp-content/uploads/2022/06/Adidas-x-Pharrell-x-Chanel-Human-Race-Trail-NMD.jpg",
+      "https://i.pinimg.com/originals/e4/71/e5/e471e5d650742096a90ed831149d1d3f.jpg",
     hoverImage:
       "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=400&fit=crop&crop=center",
     rating: 4.4,
