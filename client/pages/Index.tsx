@@ -104,7 +104,7 @@ const categories = [
     name: "Running",
     description: "Performance running tshirt",
     image:
-      "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/31f2acf8-1aad-4267-b7d3-74bef760845d/revolution-6-womens-road-running-shoes-6QLh9B.png",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da6be1fe-b03d-488c-b33d-17fc056b882c/M+NK+DFADV+AROSWFT+SS+TOP.png",
     gallery: [
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
       "https://images.unsplash.com/photo-1544966503-7cc5ac882d2f?w=600&h=400&fit=crop&crop=center",
