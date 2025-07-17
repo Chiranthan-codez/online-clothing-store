@@ -39,7 +39,7 @@ const featuredProducts = [
     price: 179,
     originalPrice: 199,
     image:
-      "https://sneakernews.com/wp-content/uploads/2014/02/air-yeezy-2-red-october-508214-660-01.jpeg",
+      "https://th.bing.com/th/id/OIP.VwZ9ANQHB_XErwNgfKmeswHaHa?w=146&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
@@ -102,8 +102,7 @@ const featuredProducts = [
 const categories = [
   {
     name: "Running",
-    icon: "🏃",
-    description: "Performance running shoes",
+    description: "Performance running tshirt",
     image:
       "https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/31f2acf8-1aad-4267-b7d3-74bef760845d/revolution-6-womens-road-running-shoes-6QLh9B.png",
     gallery: [
@@ -115,21 +114,18 @@ const categories = [
   },
   {
     name: "Casual",
-    icon: "👟",
     description: "Everyday comfort",
     image:
       "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=300&h=200&fit=crop&crop=center",
   },
   {
     name: "Training",
-    icon: "💪",
     description: "Gym & fitness",
     image:
       "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=300&h=200&fit=crop&crop=center",
   },
   {
     name: "Lifestyle",
-    icon: "✨",
     description: "Fashion forward",
     image:
       "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=200&fit=crop&crop=center",
