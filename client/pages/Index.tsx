@@ -39,7 +39,7 @@ const featuredProducts = [
     price: 179,
     originalPrice: 199,
     image:
-      "https://th.bing.com/th/id/OIP.VwZ9ANQHB_XErwNgfKmeswHaHa?w=146&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
+      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6e9489b1-6210-4cad-981c-dd4af9755348/element-mens-dri-fit-1-2-zip-running-top-q04tXT.png",
     hoverImage:
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop&crop=center",
     rating: 4.8,
@@ -72,7 +72,7 @@ const featuredProducts = [
     price: 199,
     originalPrice: 249,
     image:
-      "https://staticc.sportskeeda.com/editor/2023/03/5120d-16777600528430-1920.jpg?w=840",
+      "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/526603/01/mod01/fnd/IND/fmt/png/VELOCITY-Tri-Blend-Men's-Running-Tee",
     hoverImage:
       "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
     rating: 4.9,
