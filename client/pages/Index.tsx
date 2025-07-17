@@ -55,7 +55,7 @@ const featuredProducts = [
     price: 139,
     originalPrice: null,
     image:
-      "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400&h=400&fit=crop&crop=center",
+      "https://th.bing.com/th/id/OIP.jlnbCXL6ki1bM8V1Ek7-JAHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3",
     hoverImage:
       "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&h=400&fit=crop&crop=center",
    
