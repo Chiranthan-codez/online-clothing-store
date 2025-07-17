@@ -122,7 +122,7 @@ const categories = [
     name: "Training",
     description: "Gym & fitness",
     image:
-      "https://images.unsplash.com/photo-1518002171953-a080ee817e1f?w=300&h=200&fit=crop&crop=center",
+      "https://media.very.co.uk/i/very/VH9AG_SQ1_0000000004_BLACK_MDf?$550x733_standard$",
   },
   {
     name: "Lifestyle",
