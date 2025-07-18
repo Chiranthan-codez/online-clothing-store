@@ -907,7 +907,7 @@ export default function Index() {
                   Step Into Your
                   <span className="block bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent">
                     <p>
-                      <span style={{ color: "rgb(208, 2, 27)" }}>
+                      <span style={{ color: "rgb(230, 230, 250)" }}>
                         Best Looks
                       </span>
                     </p>
