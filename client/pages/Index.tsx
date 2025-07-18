@@ -1186,7 +1186,7 @@ export default function Index() {
       {/* Newsletter */}
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="bg-gradient-to-r from-primary to-brand-600 text-primary-foreground border-0 overflow-hidden relative group">
+          <Card className="bg-gradient-to-r from-[#E6E6FA] to-[#D8BFD8] text-primary-foreground border-0 overflow-hidden relative group">
             <div className="absolute inset-0 bg-[url('https://as2.ftcdn.net/v2/jpg/03/91/36/13/1000_F_391361370_zdNTNqgEEcCMh3yrJIZtOc77o54yLReA.jpg')] opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
             <CardContent className="p-8 lg:p-12 text-center space-y-6 relative z-10">
               <h2 className="text-2xl lg:text-3xl font-bold">
