@@ -50,8 +50,8 @@ const featuredProducts = [
   },
   {
     id: 2,
-    name: "Urban Walker Pro",
-    brand: "Nike Air Jordan",
+    name: "Urban Pro",
+    brand: "Nike Air ",
     price: 139,
     originalPrice: null,
     image:
@@ -83,7 +83,7 @@ const featuredProducts = [
   },
   {
     id: 4,
-    name: "Classic Canvas",
+    name: "Classic track suit",
     brand: "Adidas",
     price: 89,
     originalPrice: null,
