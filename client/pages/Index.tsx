@@ -744,7 +744,7 @@ export default function Index() {
                 onMouseLeave={() => setShowCursorShoe(false)}
               >
                 <h3>
-                  <span style={{ color: "rgb(204, 50, 22)" }}>StepUp</span>
+                  <span style={{ color: "rgb(204, 50, 22)" }}>Voguish</span>
                 </h3>
               </div>
             </div>
@@ -908,7 +908,7 @@ export default function Index() {
                   <span className="block bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent">
                     <p>
                       <span style={{ color: "rgb(208, 2, 27)" }}>
-                        Best Perfomance
+                        Best Looks
                       </span>
                     </p>
                   </span>
@@ -1221,7 +1221,7 @@ export default function Index() {
             <div className="col-span-2 lg:col-span-1">
               <div className="text-2xl font-bold bg-gradient-to-r from-primary to-brand-600 bg-clip-text text-transparent mb-4 hover:scale-105 transition-transform duration-300 cursor-pointer">
                 <p>
-                  <span style={{ color: "rgb(208, 2, 27)" }}>StepUp</span>
+                  <span style={{ color: "rgb(208, 2, 27)" }}>Voguish</span>
                 </p>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
