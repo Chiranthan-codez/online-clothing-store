@@ -1158,7 +1158,7 @@ export default function Index() {
                   </div>
                   <Button
                     className="w-full group-hover:bg-red-600 group-hover:text-white transition-all duration-300 transform group-hover:scale-105"
-                    style={{ backgroundColor: "rgba(220, 38, 38, 1)" }}
+                    style={{ backgroundColor: "rgba(173, 216, 230, 1)" }}
                     onClick={(e) => {
                       e.stopPropagation();
                       addToCart(product);
@@ -1520,7 +1520,7 @@ export default function Index() {
                     <div className="flex gap-3">
                       <Button
                         className="flex-1 hover:scale-105 transition-transform duration-300"
-                        style={{ backgroundColor: "rgba(63, 60, 68, 1)" }}
+                        style={{ backgroundColor: "rgba(173, 216, 230, 1)" }}
                       >
                         Add to Cart
                       </Button>
