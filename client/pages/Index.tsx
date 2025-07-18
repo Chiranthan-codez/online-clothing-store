@@ -1225,8 +1225,8 @@ export default function Index() {
                 </p>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
-                Premium athletic footwear for the modern athlete. Step up your
-                game with our collection.
+                Premium athletic clothing for the modern aesthetic. Step up your
+                class with our collection.
               </p>
               <div className="flex gap-4">
                 <Button
@@ -1341,7 +1341,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 StepUp. All rights reserved.</p>
+            <p>&copy; 2024 Voguish. All rights reserved.</p>
           </div>
         </div>
       </footer>
