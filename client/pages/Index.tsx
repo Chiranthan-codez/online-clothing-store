@@ -744,7 +744,7 @@ export default function Index() {
                 onMouseLeave={() => setShowCursorShoe(false)}
               >
                 <h3>
-                  <span style={{ color: "rgb(204, 50, 22)" }}>Voguish</span>
+                  <span style={{ color: "rgb(230, 230, 250)" }}>Voguish</span>
                 </h3>
               </div>
             </div>
