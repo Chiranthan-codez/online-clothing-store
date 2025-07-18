@@ -5,7 +5,6 @@ import { ArrowLeft } from "lucide-react";
 const categories = [
   {
     name: "Running",
-    icon: "🏃",
     description: "Performance running shoes for every distance",
     image:
       "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/12d0d09c-26bf-4d4a-9f66-04abb3a17f79/NIKE+AIR+WINFLO+11+WIDE.png",
@@ -14,7 +13,6 @@ const categories = [
   },
   {
     name: "Casual",
-    icon: "👟",
     description: "Everyday comfort meets timeless style",
     image:
       "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&h=400&fit=crop&crop=center",
@@ -23,7 +21,6 @@ const categories = [
   },
   {
     name: "Training",
-    icon: "💪",
     description: "Built for intense workouts and gym sessions",
     image:
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop&crop=center",
@@ -32,7 +29,6 @@ const categories = [
   },
   {
     name: "Lifestyle",
-    icon: "✨",
     description: "Fashion-forward shoes for modern living",
     image:
       "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=600&h=400&fit=crop&crop=center",
