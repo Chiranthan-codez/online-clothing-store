@@ -914,8 +914,8 @@ export default function Index() {
                   </span>
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-lg">
-                  Discover premium athletic footwear designed for comfort,
-                  style, and peak performance. From running to lifestyle, find
+                  Discover premium aesthetic clothing designed for comfort,
+                  style, and peak looks. From running to lifestyle, find
                   your perfect pair.
                 </p>
               </div>
